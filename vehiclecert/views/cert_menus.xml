@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <menuitem id="cert_root_menu" name="Certificates App"/>
+        <menuitem id="cert_info_menu" name="Certificates" parent="cert_root_menu" action="cert_info_action"/>
+        <menuitem id="cert_type_menu" name="CertificateTypes" parent="cert_root_menu" action="cert_type_action"/>
+        <menuitem id= "traffic_dept_menu" name="Traffic Department" parent="cert_root_menu" action="cert_dept_action" />
+        <menuitem id="customer_menu" name="Customers" parent="cert_root_menu" action="res_partner_customer_action" groups="vehiclecert.cert_super_user"/>
+    </data>
+</odoo>

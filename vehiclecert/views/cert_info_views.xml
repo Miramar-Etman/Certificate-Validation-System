@@ -1,0 +1,64 @@
+<odoo>
+    <data>
+        <record model = "ir.actions.act_window" id = "cert_info_action">
+            <field name = "name"> Certificate </field>
+            <field name = "res_model" >cert.info</field>
+            <field name ="view_mode">tree,form</field>
+        </record>
+        <record id = "certificate_tree" model = "ir.ui.view">
+            <field name = "name">Certificate Tree </field>
+            <field name = "model">cert.info</field>
+             <field name = "arch" type="xml">
+                <tree>
+                    <field name = "serial_number"/>
+                    <field name = "vehicle_type"/>
+                    <field name = "certificate_type_id"/>
+                    <field name = "traffic_department_id"/>
+                    <field name = "customer_ids"/>
+                    <field name = "car_model"/>
+                    <field name = "car_brand"/>
+                    <field name = "price"/>
+                </tree>
+             </field>
+        </record>
+                <record id = "certificate_form" model = "ir.ui.view">
+            <field name = "name">Certificate form </field>
+            <field name = "model">cert.info</field>
+             <field name = "arch" type="xml">
+                <form>
+                    <header>
+                    <button string="Print Certificate" name="change_state" type="object" attrs="{'invisible':[('print_state_current','=','no_print')]}"/>
+                        <button string="Allow Reprint" groups="vehiclecert.cert_super_user" name="reprint_cert" type="object" />
+
+                    <field name="print_state_current" widget="statusbar"/>
+                </header>
+                    <sheet>
+                        <div class="oe_title">
+                        <h1>
+                            <field name="serial_number" readonly="1"/>
+                        </h1>
+                         </div>
+                        <group>
+                        <group>
+                    <field name = "vehicle_type"/>
+                    <field name = "certificate_type_id" widget="dropdown"/>
+                    <field name = "traffic_department_id" widget="dropdown"/>
+                            <field name = "customer_ids"/>
+                            <field name = "price"/>
+                           </group>
+                         <group>
+                    <field name = "motor_number"/>
+                    <field name = "chassis_number"/>
+                    <field name = "car_model"/>
+                    <field name = "car_brand"/>
+
+                        </group>
+                        </group>
+                        <field name="logs_ids"  groups="vehiclecert.cert_super_user"/>
+                    </sheet>
+                </form>
+             </field>
+        </record>
+
+    </data>
+</odoo>

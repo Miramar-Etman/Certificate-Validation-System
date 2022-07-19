@@ -1,0 +1,301 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vehiclecert
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-19 00:40+0000\n"
+"PO-Revision-Date: 2022-07-19 00:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: vehiclecert
+#: model:ir.actions.act_window,name:vehiclecert.cert_info_action
+msgid " Certificate "
+msgstr "الشهادة"
+
+#. module: vehiclecert
+#: model:ir.actions.act_window,name:vehiclecert.cert_type_action
+msgid " Certificate Type "
+msgstr "نوع الشهادة"
+
+#. module: vehiclecert
+#: model:ir.actions.act_window,name:vehiclecert.res_partner_customer_action
+msgid " Customers "
+msgstr "العملاء"
+
+#. module: vehiclecert
+#: model:ir.actions.act_window,name:vehiclecert.cert_dept_action
+msgid " Traffic Department "
+msgstr "ادارة المرور"
+
+#. module: vehiclecert
+#: model_terms:ir.ui.view,arch_db:vehiclecert.certificate_form
+msgid "Allow Reprint"
+msgstr "السماح بالطباعة"
+
+#. module: vehiclecert
+#: model:ir.model,name:vehiclecert.model_cert_dept
+msgid "Available Traffic departments"
+msgstr "إدارات المرور المتاخة"
+
+#. module: vehiclecert
+#: model:ir.model,name:vehiclecert.model_cert_type
+msgid "Available certificates"
+msgstr "الشهادات المتاخة"
+
+#. module: vehiclecert
+#: model:ir.model.fields.selection,name:vehiclecert.selection__cert_info__car_brand__bmw
+msgid "BMW"
+msgstr "بي إم دبليو"
+
+#. module: vehiclecert
+#: model:ir.model.fields.selection,name:vehiclecert.selection__cert_info__vehicle_type__bus
+msgid "Bus"
+msgstr "أتوبيس"
+
+#. module: vehiclecert
+#: model:ir.module.category,name:vehiclecert.cert_category
+msgid "CERT_Sys"
+msgstr "سيستم الشهادات"
+
+#. module: vehiclecert
+#: model:ir.model.fields.selection,name:vehiclecert.selection__cert_info__vehicle_type__car
+msgid "Car"
+msgstr "سيارة"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__car_brand
+msgid "Car Brand"
+msgstr "ماركة السيارة"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__car_model
+msgid "Car Model"
+msgstr "نوع السيارة"
+
+#. module: vehiclecert
+#: model:ir.actions.report,name:vehiclecert.certificate_template
+msgid "Certificate "
+msgstr "الشهادة"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_dept__certificate_dept
+msgid "Certificate Dept"
+msgstr "إدارة الشهادات"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__certificate_type_id
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_type__certificate_type
+msgid "Certificate Type"
+msgstr "نوع الشهادة"
+
+#. module: vehiclecert
+#: model:ir.ui.menu,name:vehiclecert.cert_type_menu
+msgid "CertificateTypes"
+msgstr "أنواع الشهادات"
+
+#. module: vehiclecert
+#: model:ir.ui.menu,name:vehiclecert.cert_info_menu
+msgid "Certificates"
+msgstr "الشهادات"
+
+#. module: vehiclecert
+#: model:ir.ui.menu,name:vehiclecert.cert_root_menu
+msgid "Certificates App"
+msgstr "تطبيق الشهادات"
+
+#. module: vehiclecert
+#: model:ir.model,name:vehiclecert.model_cert_info
+msgid "Certificates Information"
+msgstr "معلومات عن الشهادات"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__chassis_number
+msgid "Chassis Number"
+msgstr "رقم الشاسيه"
+
+#. module: vehiclecert
+#: model:ir.model,name:vehiclecert.model_res_partner
+msgid "Contact"
+msgstr "التواصل"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_dept__create_uid
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__create_uid
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_type__create_uid
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log__create_uid
+msgid "Created by"
+msgstr "انشئت بواسطة"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_dept__create_date
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__create_date
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_type__create_date
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log__create_date
+msgid "Created on"
+msgstr "تاريخ الإنشاء"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__customer_ids
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log__customer_id
+msgid "Customer"
+msgstr "العميل"
+
+#. module: vehiclecert
+#: model:ir.ui.menu,name:vehiclecert.customer_menu
+msgid "Customers"
+msgstr "العملاء"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_dept__display_name
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__display_name
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_type__display_name
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log__display_name
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log__user_name
+msgid "Display Name"
+msgstr "الاسم"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_dept__id
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__id
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_type__id
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log__id
+msgid "ID"
+msgstr "رقم البطافة"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_dept____last_update
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info____last_update
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_type____last_update
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log____last_update
+msgid "Last Modified on"
+msgstr "اخر تحديث"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_dept__write_uid
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__write_uid
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_type__write_uid
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log__write_uid
+msgid "Last Updated by"
+msgstr " آخر شخص قام بالتحديث"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_dept__write_date
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__write_date
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_type__write_date
+#: model:ir.model.fields,field_description:vehiclecert.field_print_log__write_date
+msgid "Last Updated on"
+msgstr "تاريخ آخر تحديث"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__logs_ids
+msgid "Logs"
+msgstr "السجلات"
+
+#. module: vehiclecert
+#: model:ir.model.fields.selection,name:vehiclecert.selection__cert_info__car_brand__mercedes
+msgid "Mercedes"
+msgstr "مرسيدس"
+
+#. module: vehiclecert
+#: model:ir.model.fields.selection,name:vehiclecert.selection__cert_info__vehicle_type__microbus
+msgid "Microbus"
+msgstr "ميكروباص"
+
+#. module: vehiclecert
+#: model:ir.model.fields.selection,name:vehiclecert.selection__cert_info__vehicle_type__minibus
+msgid "Minibus"
+msgstr "ميني باص"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__motor_number
+msgid "Motor Number"
+msgstr "رقم المحرك"
+
+#. module: vehiclecert
+#: code:addons/vehiclecert/models/cert_info.py:0
+#: code:addons/vehiclecert/models/cert_info.py:0
+#: code:addons/vehiclecert/models/cert_info.py:0
+#: code:addons/vehiclecert/models/cert_info.py:0
+#, python-format
+msgid "New"
+msgstr "جديد"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__price
+msgid "Price"
+msgstr "السعر"
+
+#. module: vehiclecert
+#: model_terms:ir.ui.view,arch_db:vehiclecert.certificate_form
+msgid "Print Certificate"
+msgstr "طباعة الشهادة"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__print_state_current
+msgid "Print State Current"
+msgstr "حالة الطباعة حاليا"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_res_partner__related_certificate_id
+#: model:ir.model.fields,field_description:vehiclecert.field_res_users__related_certificate_id
+msgid "Related Certificate"
+msgstr "الشهادات الملاحقة"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__serial_number
+msgid "Serial Number"
+msgstr "الرقم السري"
+
+#. module: vehiclecert
+#: model:ir.model.fields.selection,name:vehiclecert.selection__cert_info__car_brand__toyota
+msgid "Toyota"
+msgstr "تيوتا"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__traffic_department_id
+#: model:ir.ui.menu,name:vehiclecert.traffic_dept_menu
+msgid "Traffic Department"
+msgstr "ادارة المرور"
+
+#. module: vehiclecert
+#: model:ir.model.fields,field_description:vehiclecert.field_cert_info__vehicle_type
+msgid "Vehicle Type"
+msgstr "نوع المركبة"
+
+#. module: vehiclecert
+#: model:res.groups,name:vehiclecert.cert_norm_user
+msgid "group_norm"
+msgstr "مستخدم عادي"
+
+#. module: vehiclecert
+#: model:res.groups,name:vehiclecert.cert_super_user
+msgid "group_super"
+msgstr "مشرف"
+
+#. module: vehiclecert
+#: model:ir.model.fields.selection,name:vehiclecert.selection__cert_info__print_state_current__no_print
+msgid "no_print"
+msgstr "لا يوجد طباعة"
+
+#. module: vehiclecert
+#: model:ir.model,name:vehiclecert.model_print_log
+msgid "print.log"
+msgstr "سجل الطباعة"
+
+#. module: vehiclecert
+#: model:ir.model.fields.selection,name:vehiclecert.selection__cert_info__print_state_current__print_cert
+msgid "print_cert"
+msgstr "طباعة الشهادة"

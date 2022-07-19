@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+cert_info_user_access,cert_info_user_access,model_cert_info,cert_norm_user,1,1,1,0
+cert_type_user_access,cert_type_user_access,model_cert_type,cert_norm_user,1,0,0,0
+cert_dept_user_access,cert_dept_user_access,model_cert_dept,cert_norm_user,1,0,0,0
+res_partner_user_access,res_partner_user_access,model_res_partner,cert_norm_user,1,0,0,0
+log_print_user_access,log_print_access,model_print_log,cert_norm_user,1,0,1,0
+
+cert_info_super_access,cert_info_super_access,model_cert_info,cert_super_user,1,1,1,1
+cert_type_super_access,cert_type_super_access,model_cert_type,cert_super_user,1,1,1,1
+cert_dept_super_access,cert_dept_super_access,model_cert_dept,cert_super_user,1,1,1,1
+res_partner_super_access,res_partner_user_access,model_res_partner,cert_super_user,1,1,1,1
+log_print_super_access,log_print_access,model_print_log,cert_super_user,1,0,1,1

@@ -1,0 +1,37 @@
+<odoo>
+    <data>
+        <template id="certificate_template">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="cert">
+                    <t t-call="web.external_layout">
+                        <div class="border border-4">
+                        <p  style="text-align: center; font-size:20px; font-weight: bold; color:red;"> شهادة صلاحية  </p>
+                            <p style="padding:25px" class="text-right"> <span class="font-weight-bold " t-out="cert.traffic_department_id.certificate_dept"> </span>   /السيد اللواء مدير  إدارة مرور </p>
+                         <p class="text-left"> <span t-esc="context_timestamp(datetime.datetime.now()).strftime('%Y-%m-%d')"/>تحريرا في  </p>
+                            <h5  style="padding:25px" class="text-center"> ... تحية طيبة وبعد </h5>
+                            <div>
+                            <p class="text-right"> <span class="font-weight-bold" t-out="cert.certificate_type_id.certificate_type"> </span>    / أتشرف بإفادة سيادتكم بأنه تم تعديل </p>
+                            </div>
+                            <div style="padding:25px" class="row text-right" >
+                                <div class="col-3"> <span   t-out="cert.motor_number"> </span>    /محرك رقم      </div>
+                                <div class="col-9"> <span  t-out="cert.chassis_number"> </span>    /شاسيه رقم          </div>
+
+                            </div>
+                        <div style="padding:25px" class="row text-right" >
+                                <div class="col-3"> <span   t-out="cert.car_model"> </span>    /الموديل      </div>
+                                <div class="col-9"> <span  t-out="cert.car_brand"> </span>    /الماركة          </div>
+
+                            </div>
+                        <p style="padding:25px" class="text-right"> <span t-out="cert.customer_ids.display_name"> </span> /اسم المالك</p>
+                        <div class="container text-right"><p> حيث أن المؤسسة معتمدة بالهيئة العامة للتنمية الصناعية ومصلحة الرقابة الصناعية ومعنمدة بإدارات المرور ولها سجل تجاري صناعي وبطاقة ضريبية بهذه الصفة وقد تم فحص التعديل والتركيب واللحامات والإصلاحات اللازمة طبقا لإصول الصناعة ودون الإحلال بالتصميم الأصلي ودون المساس بالأجزاء الجوهرية للسيارة وقد تم تجربة السيارة على الطرق المصرية ووجد أنها متزنة وهذه شهادة منا بذلك لتقديمها للمرور والمالك مسؤل مسئولية كاملة عن بيانات الشهادة فبرجاء التكرم والتفضل بالموافقة على ترخيص السيارة  </p> </div>
+                    <h5 style="text-align: center;" > .... وتفضلوا بقبول فائق الاخترام والتقدير </h5>
+                        </div>
+                    </t>
+
+            </t>
+
+            </t>
+
+        </template>
+    </data>
+</odoo>

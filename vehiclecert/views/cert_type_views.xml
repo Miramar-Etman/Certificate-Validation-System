@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="cert_type_action">
+            <field name="name"> Certificate Type </field>
+            <field name= "res_model" >cert.type</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>
